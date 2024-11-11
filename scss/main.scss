@@ -1,0 +1,20 @@
+@import "./variables/colors";
+
+@import "../scss/mixin/mixin";
+
+@import "./base/typography";
+@import "./base/reset";
+@import "./base/base";
+
+@import "./components/button";
+
+@import "./layout/container";
+@import "./layout/nav";
+@import "./layout/hero";
+@import "./layout/features";
+@import "./layout/contents";
+@import "./layout/galery";
+@import "./layout/partners";
+@import "./layout/testemonial";
+@import "./layout/variable";
+@import "./layout/footer";

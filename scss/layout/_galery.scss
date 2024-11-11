@@ -1,0 +1,42 @@
+.galery {
+  margin-bottom: 100px;
+  text-align: center;
+
+  &__title {
+    font-size: 52px;
+    font-weight: 400;
+  }
+
+  &__desc {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    padding: 10px;
+    margin-bottom: 54px;
+  }
+
+  &__wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 33px;
+  }
+
+  &__button {
+    background-color: transparent;
+    color: white;
+    margin-bottom: 50px;
+  }
+
+  @include mobile() {
+    &__wrapper {
+      text-align: center;
+      margin-left: 10px;
+      display: block;
+    }
+
+    &__img {
+      display: none;
+    }
+  }
+}

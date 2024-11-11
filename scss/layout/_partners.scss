@@ -1,0 +1,25 @@
+.partners {
+  text-align: center;
+  margin-bottom: 100px;
+
+  &__title {
+    padding: 10px;
+    margin-top: 50px;
+    font-size: 52px;
+    font-weight: 400;
+  }
+
+  &__desc {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+  }
+
+  &__logo {
+    margin: 54px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 74px;
+  }
+}

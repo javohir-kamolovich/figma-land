@@ -1,0 +1,48 @@
+.variable {
+  margin-bottom: 100px;
+  padding: 50px;
+
+  &__container {
+    width: 1220px;
+    margin: 0 auto;
+    background-color: rgba(52, 52, 52, 1);
+    border-radius: 33px;
+  }
+
+  &__wrapper {
+    display: flex;
+    align-items: center;
+    gap: 86px;
+    justify-content: center;
+  }
+
+  &__title {
+    font-size: 52px;
+    font-weight: 400;
+    line-height: 62px;
+    padding: 10px;
+  }
+
+  &__btn {
+    padding: 14px 67px;
+    background-color: rgba(68, 82, 254, 1);
+    color: white;
+    border: 1px solid rgba(68, 82, 254, 1);
+    margin-top: 42px;
+  }
+
+  @include mobile() {
+    &__container {
+      width: 549px;
+    }
+
+    &__wrapper {
+      text-align: center;
+      display: block;
+    }
+
+    &__btn {
+      margin-bottom: 30px;
+    }
+  }
+}

@@ -1,0 +1,109 @@
+.contents {
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 100px;
+
+  &__title {
+    font-size: 52px;
+    font-weight: 400;
+  }
+
+  &__desc {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-bottom: 54px;
+  }
+
+  &__wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 33px;
+  }
+
+  &__card {
+    width: 476px;
+    border-radius: 10px;
+    background-color: white;
+    color: black;
+    text-align: center;
+    padding: 40px 0;
+
+    &__title {
+      font-size: 20px;
+      font-weight: 500;
+      line-height: 30px;
+      padding: 10px;
+    }
+
+    &__desc {
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 24px;
+      color: rgba(92, 92, 92, 1);
+      padding: 10px;
+      margin-top: 10px;
+      margin-bottom: 57px;
+    }
+
+    &__desc2 {
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 24px;
+      color: rgba(92, 92, 92, 1);
+      padding: 10px;
+    }
+  }
+
+  &__btn {
+    padding: 14px 46px;
+    background-color: rgba(68, 82, 254, 1);
+    color: white;
+    cursor: pointer;
+    margin-bottom: 57px;
+    border: 1px solid rgba(68, 82, 254, 1);
+    transition: 0.3s ease-in-out;
+
+    &:hover {
+      background-color: white;
+      color: black;
+      border: 1px solid rgba(68, 82, 254, 1);
+    }
+  }
+
+  &__btn2 {
+    padding: 14px 46px;
+    background-color: rgba(68, 82, 254, 1);
+    color: white;
+    cursor: pointer;
+    border: 1px solid rgba(68, 82, 254, 1);
+    margin: 5px 0;
+    transition: 0.3s ease-in-out;
+
+    &:hover {
+      background-color: white;
+      color: black;
+      border: 1px solid rgba(68, 82, 254, 1);
+    }
+  }
+
+  @include mobile() {
+    &__wrapper {
+      margin-left: 70px;
+      display: block;
+    }
+
+    &__card {
+      margin-bottom: 73px;
+    }
+
+    &__title {
+      text-align: center;
+    }
+
+    &__desc {
+      text-align: center;
+    }
+  }
+}
